@@ -1,103 +1,149 @@
 * {
-    margin: 0px;
-    padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    background-color: #E5E5E5;
+body {
+  background-color: #e5e5e5;
 }
 
 header {
-    text-align: right;
-    padding-right: 15px;
-    padding-top:15px; 
-    width: 414px;
-    height: 190px;
-    left: 0px;
-    top: 19px;
-    background: #E4A278;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #E4A278;
+  width: 100%;
+  padding: 5% 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom: 5px solid #F65E3B;
+  margin-bottom: 0.1%;
 }
-a.button{
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    border-radius: 24%;
+h1, h4 {
+  text-align: right;
+  margin-right: 10%;
 }
-.button{
-    text-decoration: none;
-    color: white;
-    background: #503644;
-    text-align: center;
-    width: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 20px;  
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-radius: 24%;
 }
 
 .button {
-    b
-    border-radius: 25px;
-    padding: 10%;
+  text-decoration: none;
+  color: white;
+  background: #503644;
+  text-align: center;
+  width: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 20px;
 }
 
-div{
-    text-align:center;
+.buttonAccount {
+  border-radius: 25px;
+  padding: 10%;
+}
+
+div {
+  text-align: center;
 }
 
 #infoHorarios {
-    border-width: 5px;
-    border-style: solid;
-    border-color: red;
-    margin-top: 80px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  margin-top: 80px;
   margin-bottom: 80px;
   margin-right: 80px;
   margin-left: 80px;
   padding: 12px;
-  }
-.contadores {
-    display: grid;
-    grid: 30px / 30px, 30px
 }
 
-#contadorAusencias{
-    background-color: #ff8533;
-    border-style: solid;
-    border-color: red;
-    border-radius: 50%;
-    padding: 1.2%;
-    width: 1.2%;
-    position: relative;
-    top:30%;
-    left:40%;
+.contadores {
+  display: grid;
+  grid: 30px / auto auto;
 }
-#contadorFaltas{
-    background-color:#2A425F;
-    border-style: solid;
-    border-color: red;
-    border-radius: 50%;
-    padding: 1.2%;
-    width: 1.2%;
-    position: rela;
-    top: 30%;
-    right: 40%;
+
+#contadorAusencias {
+  background-color: #ff8533;
+  border-style: solid;
+  border-color: red;
+  border-radius: 50%;
+  padding: 1.2%;
+  width: 10%;
+  position: relative;
+  top: 30%;
+  left: 40%;
+}
+
+#contadorFaltas {
+  background-color: #2a425f;
+  border-style: solid;
+  border-color: red;
+  border-radius: 50%;
+  padding: 1.2%;
+  width: 10%;
+  position: relative;
+  top: 30%;
+  right: 40%;
 }
 
 .grid-container {
-    display: grid;
-    grid: 150px / auto auto auto auto auto
-  }
+  display: grid;
+  grid: 150px / auto auto auto auto auto;
+}
 
-  #nombres {
-      list-style-type: none;
-      border-style: solid;
-      border-width: 5px;
-      border-color: black;
-      text-align: center;
-  }
-  h3 {
-      text-align:  center;
-      margin:0;
-      padding:0;
-  }
-  
+#nombres {
+  list-style-type: none;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.desactivar{
+  text-align: center;
+}
+
+.cuerpoMaster{
+  text-align: center;
+  width: 100%;
+  padding: 5% 0px;
+  background-color: #DEB98C;
+}
+
+#botonVerListaDiariaLlegada{
+  float: right;
+  margin-top: 2%;
+  margin-right: 10%; 
+}
+#horarios{
+  width: 20%;
+  border: 1px solid #5F2A33;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: inline-block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 1.5%;
+}
+
+#botonVerListaDiariaLlegada{
+width: 30%;
+   margin: -10% 0% 10% 50%;
+   padding: 2%;
+   border-radius: 40px;
+   background-color: #F20C0C;
+   color: #F9E5CE;
+   border: 1px solid #CC3A19;
+   box-shadow: 0px 0px 2px black;
+   font-size: 50px;
+   letter-spacing: 0.15em;
+}
+
+
